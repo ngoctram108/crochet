@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/jpg" href="pics/favicon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CROCHET</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="js/login.js">
+
+</head>
+<body style="background-color: rgb(250, 221, 221);">
+    <header id="fix">
+        <div class="logo">
+            <img src="pics/logo.jpg" id="logo" alt="logo" align="left">
+        </div>
+        
+        <br>
+     <div id="dangnhap">
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="login">SIGN IN</button>    
+        <button id="login"><a href="register.html">REGISTER</a></button>
+    <div id="id01" class="modal">  
+      <form class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="pics/login.jpg" alt="Avatar" class="avatar">
+          </div>
+    
+        <div class="container">
+            <h2>LOGIN FORM</h2>
+          <label for="uname"><b>Username</b></label>
+          <i class='bx bxs-user' ></i>
+          <input type="text" placeholder="Username" required>
+          
+    
+          <label for="psw"><b>Password</b></label>
+          <i class='bx bxs-lock-alt'></i>
+          <input type="password" placeholder="Password" required>
+            
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+          <br>
+          <button type="submit" class="dn">Login</button>
+        </div>
+    
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+          <span class="psw">Don't have an account?<a href="register.html">Register</a></span>
+        </div>
+      </form>
+    </div>
+    </div>
+    
+    <br>
+    <div class="search-box">
+        <div class="input-box">            
+            <input type="search" id="search" placeholder="Tìm kiếm...">
+            <a href="#" class="search-btn">
+                <i class='bx bx-search-alt-2'></i>
+            </a>
+        </div>
+    </div>
+        <br>
+        <div id="navfix">
+            <ul class="navbar">    
+                <li><a href="index.html"><b>MENU</b></a></li>
+                <li><a href="intro.html"><b>ABOUT</b></a></li>
+                <div class="dropdown">
+                    <li><a href="product.html"><b>PRODUCT</b></a></li>
+                    <div class="content">
+                        <a href="flower.html">Flower</a>
+                        <a href="stuffedanimal.html">Stuffed animal</a>
+                        <a href="keychain.html">Key chain</a>
+                        <a href="clothes.html">Clothes</a>
+                        <a href="tote.html">Tote</a>
+                        <a href="another.html">...</a>
+                    </div>
+                </div>
+               
+                <div class="dropdown">
+                    <li><a href="learn.html"><b>LEARN</b></a></li>
+                    <div class="content">
+                        <a href="">Basic chart</a>
+                        <a href="">Another chart</a>
+                    </div>
+                </div>
+                <li><a href="shop.html"><b>SHOP</b></a></li>
+                <li><a href="contact.html"><b>CONTACT</b></a></li>
+               
+            </ul>
+        </div>
+        
+    </header>
+
+<h1>ALL PRODUCTS</h1>
+<div class="selectbox">
+    <div class="select">
+        <div id="select-item">
+            <p>All</p>
+            <i class='bx bxs-chevron-down' id="arrow"></i>
+        </div>
+        <ul id="list" class="hide">
+            <li class="option"><p id="select-text"><a href="product.html">All</a></p></li>
+            <li class="option"><p id="select-text"><a href="clothes.html">Clothes</a></p></li>
+            <li class="option"><p id="select-text"><a href="flower.html">Flower</a></p></li>
+            <li class="option"><p id="select-text"><a href="keychain.html">Key chain</a></p></li>
+            <li class="option"><p id="select-text"><a href="stuffedanimal.html">Stuffed animal</a></p></li>
+            <li class="option"><p id="select-text"><a href="tote.html">Tote</a></p></li>
+            <li class="option"><p id="select-text"><a href="another.html">Another</a></p></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="chuoisp">
+    <div id="allsp">
+        <div class="mang">
+            <div class="animal">
+                <a>
+                    <img class="image" src="pics/animal1.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Chick Amigurumi</h4>                        
+                <p>Cute wool chicken stew keychain...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="flower">
+                <a>
+                    <img class="image" src="pics/flo1.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>A Basket Of Flowers</h4>                        
+                <p>Mini flower basket made of wool...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="key">
+                <a>
+                    <img class="image" src="pics/animal2.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Rabit keychain</h4>                        
+                <p>...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="tote">
+                <a>
+                    <img class="image" src="pics/tote1.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Flower Tote Bag</h4>                        
+                <p>fdhgfythhgbdhfuehufjhueufffffffsd...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="clothes">
+                <a>
+                    <img class="image" src="pics/clo1.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Sweet Woman Crop Top</h4>                        
+                <p>fdhgfythhgbdhfuehufjhueufffffffsd...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="another">
+                <a>
+                    <img class="image" src="pics/key1.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Car Pandent</h4>                        
+                <p>fdhgfythhgbdhfuehufjhueufffffffsd...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="flower">
+                <a>
+                    <img class="image" src="pics/flo2.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>A Basket Of Flowers</h4>                        
+                <p>Mini flower basket made of wool...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="another">
+                <a>
+                    <img class="image" src="pics/ano1.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Headbands</h4>                        
+                <p>fdhgfythhgbdhfuehufjhueufffffffsd...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="key">
+                <a>
+                    <img class="image" src="pics/key2.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Christmas Decorate</h4>                        
+                <p>The most adorable crochet Christmas Tree...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="another">
+                <a>
+                    <img class="image" src="pics/ano2.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Boombox Bag</h4>                        
+                <p>If you love retro like we do,...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="flower">
+                <a>
+                    <img class="image" src="pics/flo3.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Daisy</h4>                        
+                <p>Knitted cute flowers for Home decorate...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="tote">
+                <a>
+                    <img class="image" src="pics/tote2.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Mini Cable Bag</h4>                        
+                <p>This mini cable bag free...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="clothes">
+                <a>
+                    <img class="image" src="pics/clo2.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Croptop</h4>                        
+                <p>...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="animal">
+                <a>
+                    <img class="image" src="pics/animal3.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Chinchilla Doll</h4>
+                <p>...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="key">
+                <a>
+                    <img class="image" src="pics/key3.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Key Chain Cute Flowe Pearl</h4>
+                <p>Hand-woven lily of...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="animal">
+                <a>
+                    <img class="image" src="pics/animal4.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Mini Mushroom</h4>
+                <p>The adorablecrochet mini mushoom keychain...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="another">
+                <a>
+                    <img class="image" src="pics/ano3.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Water Bottle</h4>
+                <p>Peach crrochet water bottle holder white thermos carrier...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="key">
+                <a>
+                    <img class="image" src="pics/key4.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Mushroom Key</h4>
+                <p>...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="key">
+                <a>
+                    <img class="image" src="pics/key5.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Suttlecock Keychain</h4>
+                <p>Badminton Amigurumi Turorial...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="flower">
+                <a>
+                    <img class="image" src="pics/flo4.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Bouquet</h4>
+                <p>Many types of flowers...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="flower">
+                <a>
+                    <img class="image" src="pics/flo5.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Tulip</h4>
+                <p>The crochet tulip is a true work of art...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="another">
+                <a>
+                    <img class="image" src="pics/ano4.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Hibud</h4>
+                <p>From yoyo the ricecorpse...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="tote">
+                <a>
+                    <img class="image" src="pics/tote3.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Handbag</h4>
+                <p>Crochet handbag with flowers...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="clothes">
+                <a>
+                    <img class="image" src="pics/clo3.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Spring Crochet Vests</h4>
+                <p>The Preppy Diamond Jumper Vest is a vest version... <!--of the Preppy Diamond Jumper. It’s ideal for layering over a collared shirt or wearing on its own. Simple basic stitches were used, along with a colorwork chart and written instructions. Excellent pattern for beginners who want to improve their skills.--></p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="another">
+                <a>
+                    <img class="image" src="pics/ano5.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Ice Cream</h4>
+                <p>Sweet cone crochet pattern...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="another">
+                <a>
+                    <img class="image" src="pics/ano6.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Colorful Mini Party Hat</h4>                        
+                <p>Crochet mini party hat of any age...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="another">
+                <a>
+                    <img class="image" src="pics/ano7.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Heart-Shaped Cushion</h4>                        
+                <p>The heart-shaped cushion is a lovely decor...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="tote">
+                <a>
+                    <img class="image" src="pics/tote4.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Floral Square Shoulder Bag</h4>                        
+                <p>...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="another">
+                <a>
+                    <img class="image" src="pics/ano8.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Yellow girl</h4>                        
+                <p>...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+        <div class="mang">
+            <div class="another">
+                <a>
+                    <img class="image" src="pics/ano9.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h4>Bread Airpods Case</h4>                        
+                <p>The airpods case is really adorable...</p>
+                <button class="button"><a href="">Detail</a></button>  
+            </div>  
+        </div>
+
+    </div>
+</div>
+
+    <br><hr>
+    <footer style="background-color: rgb(124, 116, 124);" align="center">
+        by: NgocTram<br>
+        &copy; copyright reserved<br>
+        <a href="mailto: truongtram2k4@gmail.com"><i class='bx bxl-gmail'></i>Mail</a>
+    </footer>
+
+<script>
+    var selectField = document.getElementById("select-item");
+    var selectText = document.getElementById("select-text");
+    var options = document.getElementsByClassName("option");
+    var list=document.getElementById("list");
+    var arrow=document.getElementById("arrow")
+
+    selectField.onclick = function(){
+        list.classList.toggle("hide");
+        arrow.classList.toggle("rotate");
+    }
+
+    for(option of options){
+        option.onclick = function(){
+            selectField.innerHTML = this.textContent;
+            list.classList.toggle("hide");
+            arrow.classList.toggle("rotate");
+        }
+    }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/jpg" href="pics/favicon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CROCHET</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="js/login.js">
+
+</head>
+<body style="background-color: rgb(250, 221, 221);">
+    <header id="fix">
+        <div class="logo">
+            <img src="pics/logo.jpg" id="logo" alt="logo" align="left">
+        </div>
+        
+        <br>
+     <div id="dangnhap">
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="login">SIGN IN</button>    
+        <button id="login"><a href="register.html">REGISTER</a></button>
+    <div id="id01" class="modal">  
+      <form class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="pics/login.jpg" alt="Avatar" class="avatar">
+          </div>
+    
+        <div class="container">
+            <h2>LOGIN FORM</h2>
+          <label for="uname"><b>Username</b></label>
+          <i class='bx bxs-user' ></i>
+          <input type="text" placeholder="Username" required>
+          
+    
+          <label for="psw"><b>Password</b></label>
+          <i class='bx bxs-lock-alt'></i>
+          <input type="password" placeholder="Password" required>
+            
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+          <br>
+          <button type="submit" class="dn">Login</button>
+        </div>
+    
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+          <span class="psw">Don't have an account?<a href="register.html">Register</a></span>
+        </div>
+      </form>
+    </div>
+    </div>
+    
+    <br>
+    <div class="search-box">
+        <div class="input-box">            
+            <input type="search" id="search" placeholder="Tìm kiếm...">
+            <a href="#" class="search-btn">
+                <i class='bx bx-search-alt-2'></i>
+            </a>
+        </div>
+    </div>
+        <br>
+        <div id="navfix">
+            <ul class="navbar">    
+                <li><a href="index.html"><b>MENU</b></a></li>
+                <li><a href="intro.html"><b>ABOUT</b></a></li>
+                <div class="dropdown">
+                    <li><a href="product.html"><b>PRODUCT</b></a></li>
+                    <div class="content">
+                        <a href="flower.html">Flower</a>
+                        <a href="stuffedanimal.html">Stuffed animal</a>
+                        <a href="keychain.html">Key chain</a>
+                        <a href="clothes.html">Clothes</a>
+                        <a href="tote.html">Tote</a>
+                        <a href="another.html">...</a>
+                    </div>
+                </div>
+               
+                <div class="dropdown">
+                    <li><a href="learn.html"><b>LEARN</b></a></li>
+                    <div class="content">
+                        <a href="">Basic chart</a>
+                        <a href="">Another chart</a>
+                    </div>
+                </div>
+                <li><a href="shop.html"><b>SHOP</b></a></li>
+                <li><a href="contact.html"><b>CONTACT</b></a></li> 
+            </ul>
+        </div>
+    </header>
+
+<h1>STUFFED ANIMALS</h1>
+<div class="selectbox">
+    <div class="select">
+        <div id="select-item">
+            <p>Stuffed animals</p>
+            <i class='bx bxs-chevron-down' id="arrow"></i>
+        </div>
+        <ul id="list" class="hide">
+            <li class="option"><p id="select-text"><a href="product.html">All</a></p></li>
+            <li class="option"><p id="select-text"><a href="clothes.html">Clothes</a></p></li>
+            <li class="option"><p id="select-text"><a href="flower.html">Flower</a></p></li>
+            <li class="option"><p id="select-text"><a href="keychain.html">Key chain</a></p></li>
+            <li class="option"><p id="select-text"><a href="stuffedanimal.html">Stuffed animal</a></p></li>
+            <li class="option"><p id="select-text"><a href="tote.html">Tote</a></p></li>
+            <li class="option"><p id="select-text"><a href="another.html">Another</a></p></li>
+        </ul>
+    </div>
+</div>
+
+    <div class="chuoisp">
+        <div id="allsp">
+            <div class="mang">
+                <div class="animal">
+                    <a>
+                        <img class="image" src="pics/animal1.jpg">
+                    </a>
+                </div>
+                <div class="infor">
+                    <h4>Chick Amigurumi</h4>                        
+                    <p>Cute wool chicken stew keychain...</p>
+                    <button class="button"><a href="">Detail</a></button>  
+                </div>  
+            </div>
+
+            <div class="mang">
+                <div class="animal">
+                    <a>
+                        <img class="image" src="pics/animal2.jpg">
+                    </a>
+                </div>
+                <div class="infor">
+                    <h4>Rabbit</h4>
+                    <p>...</p>
+                    <button class="button"><a href="">Detail</a></button>  
+                </div>  
+            </div>
+
+            <div class="mang">
+                <div class="animal">
+                    <a>
+                        <img class="image" src="pics/animal3.jpg">
+                    </a>
+                </div>
+                <div class="infor">
+                    <h4>Chinchilla Doll</h4>
+                    <p>...</p>
+                    <button class="button"><a href="">Detail</a></button>  
+                </div>  
+            </div>
+
+            <div class="mang">
+                <div class="animal">
+                    <a>
+                        <img class="image" src="pics/animal4.jpg">
+                    </a>
+                </div>
+                <div class="infor">
+                    <h4>Mini Mushroom</h4>
+                    <p>The adorablecrochet mini mushoom keychain...</p>
+                    <button class="button"><a href="">Detail</a></button>  
+                </div>  
+            </div>
+
+            <div class="mang">
+                <div class="animal">
+                    <a>
+                        <img class="image" src="pics/animal5.jpg">
+                    </a>
+                </div>
+                <div class="infor">
+                    <h4>Mini Mushroom</h4>
+                    <p>The adorablecrochet mini mushoom keychain...</p>
+                    <button class="button"><a href="">Detail</a></button>  
+                </div>  
+            </div>
+
+            <div class="mang">
+                <div class="animal">
+                    <a>
+                        <img class="image" src="pics/animal6.jpg">
+                    </a>
+                </div>
+                <div class="infor">
+                    <h4>Teddy</h4>
+                    <p>...</p>
+                    <button class="button"><a href="">Detail</a></button>  
+                </div>  
+            </div>
+
+            <div class="mang">
+                <div class="animal">
+                    <a>
+                        <img class="image" src="pics/animal7.jpg">
+                    </a>
+                </div>
+                <div class="infor">
+                    <h4>Sheep</h4>
+                    <p>...</p>
+                    <button class="button"><a href="">Detail</a></button>  
+                </div>  
+            </div>
+
+            <div class="mang">
+                <div class="animal">
+                    <a>
+                        <img class="image" src="pics/animal8.jpg">
+                    </a>
+                </div>
+                <div class="infor">
+                    <h4>Cat</h4>
+                    <p>Pastel Pusheen Amigurumi...</p>
+                    <button class="button"><a href="">Detail</a></button>  
+                </div>  
+            </div>
+
+            <div class="mang">
+                <div class="animal">
+                    <a>
+                        <img class="image" src="pics/animal9.jpg">
+                    </a>
+                </div>
+                <div class="infor">
+                    <h4>Dragon Chico</h4>
+                    <p>Amigurumi Crochet Dragon Chico...</p>
+                    <button class="button"><a href="">Detail</a></button>  
+                </div>  
+            </div>
+
+            <div class="mang">
+                <div class="animal">
+                    <a>
+                        <img class="image" src="pics/animal10.jpg">
+                    </a>
+                </div>
+                <div class="infor">
+                    <h4>Penguin</h4>
+                    <p>Amigurumi Penguin...</p>
+                    <button class="button"><a href="">Detail</a></button>  
+                </div>  
+            </div>
+
+
+        </div>
+    </div>
+
+    <br><hr>
+    <footer style="background-color: rgb(124, 116, 124);" align="center">
+        by: NgocTram<br>
+        &copy; copyright reserved<br>
+        <a href="mailto: truongtram2k4@gmail.com"><i class='bx bxl-gmail'></i>Mail</a>
+    </footer>
+
+<script>
+    var selectField = document.getElementById("select-item");
+    var selectText = document.getElementById("select-text");
+    var options = document.getElementsByClassName("option");
+    var list=document.getElementById("list");
+    var arrow=document.getElementById("arrow")
+
+    selectField.onclick = function(){
+        list.classList.toggle("hide");
+        arrow.classList.toggle("rotate");
+    }
+
+    for(option of options){
+        option.onclick = function(){
+            selectField.innerHTML = this.textContent;
+            list.classList.toggle("hide");
+            arrow.classList.toggle("rotate");
+        }
+    }
+</script>
+</body>
+
+</html>

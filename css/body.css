@@ -1,0 +1,203 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin:0px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.anhgt1{
+  width: 1358px;
+}
+
+body::-webkit-scrollbar{
+  width: 8px;
+  background-color: rgb(255, 255, 255);
+}
+body::-webkit-scrollbar-thumb{
+  background-color: rgb(226, 136, 151);
+}
+body::-webkit-scrollbar-track{
+  background-color: rgb(241, 239, 239);
+}
+
+th{
+  width: 680px;
+  padding: 0px 50px;
+}
+#khunggt{
+  border-collapse: collapse ;
+  width: 100%;
+}
+#chuoigt1{
+  width: 550px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 0px 10px;
+}
+#chuoigt2{ 
+  width: 550px;
+  background-color: rgb(0, 0, 0);
+  text-align: center; 
+  padding: 0px 10px;
+}
+.share{
+  background-color: rgb(165, 23, 23);
+}
+.share a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.buy{
+  background-color: rgb(48, 96, 136);
+}
+.buy a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
+#vid{
+  float: left;
+  margin-left: 0;
+}
+#content{
+    background-color: rgb(250, 147, 198);
+    text-align: center;
+
+    width: 100%;
+    margin: 0 10px 0 500px;
+    float: right;
+    line-height: 30px;
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+
+/*
+  #content .img{
+    object-fit: contain;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+.image{
+  width:200px;
+  height:200px;
+  transition: 0,3s;
+}
+.chuoi{
+  margin-top: 50px;
+}
+
+#slidesp{
+  transition: 0,3s;
+  display:flex;
+  height:100%;
+  overflow:scroll;
+  gap:20px;
+  padding: 10px 20px 20px 10px;
+}
+.mang{
+  width: 200px;
+  height: 310px;
+  border-radius:0px;
+  border:0px solid rgb(230, 123, 141);
+  background-color: rgba(255, 255, 255, 0.956);
+  padding:10px 15px;
+  padding-bottom:5px;
+  cursor: pointer;
+  transition: 0,3s;
+}
+.mang:hover{
+  background-color: rgba(255, 117, 117, 0.956);
+  transform: scale(1.02);
+}
+#slidesp::-webkit-scrollbar{
+  width: 1px;
+}
+#slidesp::-webkit-scrollbar-thumb{
+  background-color: rgb(226, 136, 151);
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -o-border-radius:10px;
+  width: 1px;
+}
+
+.infor a{
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color:rgba(25, 28, 80, 0.956);
+}
+.infor p{
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color:rgba(85, 88, 147, 0.956);
+  margin-bottom: 20px;
+
+}
+.infor{
+  font-family: Itim;
+}
+
+.more{
+  padding: 110px 10px;
+}
+#buttonmore{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  text-decoration: none;
+}
+.button{
+  text-decoration: none;
+}
+
+/*
+.mang{
+  position:static;
+  padding-top: 10px;
+  width: 1328px;
+
+}
+.chuoisp{
+  display: inline-block;
+  margin-left: 15px;
+  background-color: white;
+  padding: 20px 15px;
+  height: 300px;
+  width: 200px;
+  box-shadow: 0 0 10px rgb(247, 124, 145);
+}
+.chuoisp img{
+  width: 200px;
+}
+.button{
+  border: none;
+  font-size: 15px;
+  color: aliceblue;
+  padding: 5px 10px;
+  background-color: rgb(68, 68, 133);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background-color: rgb(23, 23, 71);
+}
+.contentsp{
+  align-items: center;
+  font-size: small;
+  text-align: none; 
+}
+ */
