@@ -57,7 +57,7 @@ img.avatar {
   padding: 20px;
 }
 
-span.psw {
+div.psw {
   float: right;
   padding-top: 0px;
   padding: 0 10px 0;
@@ -120,7 +120,7 @@ span.psw {
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
-  span.psw {
+  div.psw {
      display: block;
      float: none;
   }

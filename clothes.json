@@ -1,0 +1,75 @@
+[
+    {
+        "id": 5,
+        "name": "Sweet Woman Crop Top",
+        "infor": "",
+        "price": 130000,
+        "image": "pics/clo1.jpg"
+    },
+   
+    {
+        "id": 13,
+        "name": "Croptop",
+        "infor": "",
+        "price": 50000,
+        "image": "pics/clo2.jpg"
+    },
+   
+    {
+        "id": 24,
+        "name": "Spring Crochet Vests",
+        "infor": "A vest version of the Preppy Diamond Jumper",
+        "price": 94000,
+        "image": "pics/clo3.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Flower Crop Top",
+        "infor": "",
+        "price": 89000,
+        "image": "pics/clo6.jpg"
+    },
+    {
+        "id": 34,
+        "name": "Heart Patchwork Crochet Cardigan",
+        "infor": "",
+        "price": 160000,
+        "image": "pics/clo4.jpg"
+    },
+    {
+        "id": 38,
+        "name": "Flower Embroidered Crop Top",
+        "infor": "",
+        "price": 90000,
+        "image": "pics/clo5.jpg"
+    },
+    {
+        "id": 41,
+        "name": "Crochet Top Blouses",
+        "infor":"",
+        "price": 80000,
+        "image":"pics/clo7.jpg"  
+    },
+    {
+        "id": 44,
+        "name": "Crochet Tulip Top",
+        "infor":"Spring is like painter",
+        "price": 45000,
+        "image":"pics/clo8.jpg"  
+    },
+    {
+        "id": 49,
+        "name": "Floral Corset",
+        "infor":"Crochet Corset Cottagecare Top",
+        "price": 55000,
+        "image":"pics/clo9.jpg"  
+    },
+    {
+        "id": 54,
+        "name": "Strawberry Sweater",
+        "infor":"Trend Crochet strawberry cardigan sweater pattern!",
+        "price": 120000,
+        "image":"pics/clo10.jpg"  
+    }
+]
+

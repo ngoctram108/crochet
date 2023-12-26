@@ -1,0 +1,109 @@
+[
+    {
+        "id": 4,
+        "name": "Hairclip",
+        "infor": "",
+        "price": 10000,
+        "image": "pics/ano11.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Headbands",
+        "infor": "",
+        "price": 25000,
+        "image": "pics/ano1.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Boombox Bag",
+        "infor": "For everyone love retro",
+        "price": 20000,
+        "image": "pics/ano2.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Water Bottle",
+        "infor": "Peach crochet water bottle",
+        "price": 30000,
+        "image": "pics/ano3.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Hibud",
+        "infor": "From yoyo the ricecorpse",
+        "price": 33000,
+        "image": "pics/ano4.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Ice Cream",
+        "infor": "Sweet cone crochet pattern",
+        "price": 20000,
+        "image": "pics/ano5.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Colorful Mini Party Hat",
+        "infor": "Crochet mini party hat of any age",
+        "price": 20000,
+        "image": "pics/ano6.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Heart-Shaped Cushion",
+        "infor": "The heart-shaped cushion is a lovely decor",
+        "price": 35000,
+        "image": "pics/ano7.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Yellow girl",
+        "infor": "",
+        "price": 32000,
+        "image": "pics/ano8.jpg"
+    },
+
+    {
+        "id": 30,
+        "name": "Bread Airpods Case",
+        "infor": "The airpods case is really adorable",
+        "price": 27000,
+        "image": "pics/ano9.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Christmas Tree",
+        "infor": "",
+        "price": 38000,
+        "image": "pics/ano12.jpg"
+    },
+    {
+        "id": 35,
+        "name": "Strawberry Pouch",
+        "infor": "",
+        "price": 18000,
+        "image": "pics/ano13.jpg"
+    },
+    {
+        "id": 37,
+        "name": "Candle Light",
+        "infor": "",
+        "price": 20000,
+        "image": "pics/ano14.jpg"
+    },
+    {
+        "id": 39,
+        "name": "Cake",
+        "infor": "",
+        "price": 22000,
+        "image": "pics/ano15.jpg"
+    },
+    {
+        "id": 59,
+        "name": "Blossom Bucket Hat",
+        "infor": "",
+        "price": 35000,
+        "image": "pics/ano10.jpg"
+    }
+
+]

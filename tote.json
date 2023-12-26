@@ -1,0 +1,73 @@
+[
+    {
+        "id": 3,
+        "name": "Chrysanthemum Bag",
+        "infor":"",
+        "price": 90000,
+        "image":"pics/tote9.jpg" 
+    },
+    {
+        "id": 12,
+        "name": "Mini Cable Bag",
+        "infor": "This mini cable bag free",
+        "price": 60000,
+        "image": "pics/tote2.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Handbag",
+        "infor": "Crochet handbag with flowers",
+        "price": 111000,
+        "image": "pics/tote3.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Floral Square Shoulder Bag",
+        "infor": "",
+        "price": 54000,
+        "image": "pics/tote4.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Flower Tote Bag",
+        "infor": "",
+        "price": 100000,
+        "image": "pics/tote1.jpg"
+    },
+    {
+        "id": 43,
+        "name": "Peach Crochet Shoulder Bag",
+        "infor":"",
+        "price": 70000,
+        "image":"pics/tote5.jpg"  
+    },
+    {
+        "id": 48,
+        "name": "Trendy Handbag",
+        "infor":"",
+        "price": 30000,
+        "image":"pics/tote6.jpg"  
+    },
+    {
+        "id": 51,
+        "name": "Mini Bag",
+        "infor":"",
+        "price": 28000,
+        "image":"pics/tote7.jpg"  
+    },
+    {
+        "id": 56,
+        "name": "Daisy Bag",
+        "infor": "",
+        "price": 75000,
+        "image":"pics/tote8.jpg"  
+    },
+    {
+        "id": 57,
+        "name": "Hearth Bag",
+        "infor":"",
+        "price": 65000,
+        "image":"pics/tote10.jpg"  
+    }
+]
+

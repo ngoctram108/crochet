@@ -1,0 +1,122 @@
+[
+    {
+        "id": 2,
+        "name": "A Basket Flowers",
+        "infor": "Mini flower basket made of wool",
+        "price": 50000,
+        "image": "pics/flo1.jpg"
+    },
+    {
+        "id": 7,
+        "name": "A Basket Flowers",
+        "infor": "",
+        "price": 50000,
+        "image": "pics/flo2.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Daisy",
+        "infor": "For home decorating",
+        "price": 110000,
+        "image": "pics/flo3.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Key Chain",
+        "infor": "Key Chain Cute Flowe Pearl",
+        "price": 15000,
+        "image": "pics/key3.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Bouquet",
+        "infor": "Many types of flowers",
+        "price": 150000,
+        "image": "pics/flo4.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Tulip",
+        "infor": "The crochet tulip is a true work of art",
+        "price": 120000,
+        "image": "pics/flo5.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Handbag",
+        "infor": "Crochet handbag with flowers",
+        "price": 111000,
+        "image": "pics/tote3.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Floral Square Shoulder Bag",
+        "infor": "",
+        "price": 54000,
+        "image": "pics/tote4.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Flower Crop Top",
+        "infor": "",
+        "price": 89000,
+        "image": "pics/clo6.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Flower Tote Bag",
+        "infor": "",
+        "price": 100000,
+        "image": "pics/tote1.jpg"
+    },
+    {
+        "id": 36,
+        "name": "Light sunflower",
+        "infor": "",
+        "price": 80000,
+        "image": "pics/flo6.jpg"
+    },
+    {
+        "id": 38,
+        "name": "Flower Embroidered Crop Top",
+        "infor": "",
+        "price": 90000,
+        "image": "pics/clo5.jpg"
+    },
+    {
+        "id": 40,
+        "name": "Flower",
+        "infor": "For graduation, birthday, anni...",
+        "price": 125000,
+        "image": "pics/flo7.jpg"
+    },
+    {
+        "id": 45,
+        "name": "Strawberry",
+        "infor":"",
+        "price": 50000,
+        "image":"pics/flo8.jpg"  
+    },
+    {
+        "id": 47,
+        "name": "Rose",
+        "infor":"For gift",
+        "price": 120000,
+        "image":"pics/flo9.jpg"  
+    },
+    {
+        "id": 49,
+        "name": "Floral Corset",
+        "infor":"Crochet Corset Cottagecare Top",
+        "price": 55000,
+        "image":"pics/clo9.jpg"  
+    },
+    {
+        "id": 52,
+        "name": "Cozy crochet",
+        "infor":"Puffy flowers",
+        "price": 90000,
+        "image":"pics/flo10.jpg"  
+    }
+]
+

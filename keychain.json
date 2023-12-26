@@ -1,0 +1,38 @@
+[
+    {
+        "id": 6,
+        "name": "Car Pandent",
+        "infor": "",
+        "price": 10000,
+        "image": "pics/key1.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Christmas Decorate",
+        "infor": "The most adorable crochet Christmas Tree",
+        "price": 18000,
+        "image": "pics/key2.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Key Chain",
+        "infor": "Key Chain Cute Flowe Pearl",
+        "price": 15000,
+        "image": "pics/key3.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Mushroom Key",
+        "infor": "",
+        "price": 18000,
+        "image": "pics/key4.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Shuttlecock Keychain",
+        "infor": "Badminton Amigurumi Tutorial",
+        "price": 20000,
+        "image": "pics/key5.jpg"
+    }
+]
+

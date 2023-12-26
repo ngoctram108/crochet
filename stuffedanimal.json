@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Chick Amigurumi",
+        "infor": "Cute wool chicken stew keychain",
+        "price": 45000,
+        "image": "pics/animal1.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Chinchilla Doll",
+        "infor": "",
+        "price": 62000,
+        "image": "pics/animal3.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Mini Mushroom",
+        "infor": "The adorablecrochet mini mushoom keychain",
+        "price": 25000,
+        "image": "pics/animal4.jpg"
+    },
+    {
+        "id": 42,
+        "name": "Mini Cat",
+        "infor":"Christmas cat",
+        "price": 40000,
+        "image":"pics/animal5.jpg"  
+    },
+    {
+        "id": 46,
+        "name": "Teddy",
+        "infor":"",
+        "price": 50000,
+        "image":"pics/animal6.jpg"  
+    },
+    {
+        "id": 50,
+        "name": "Sheep",
+        "infor":"",
+        "price": 40000,
+        "image":"pics/animal7.jpg"  
+    },
+    {
+        "id": 53,
+        "name": "Cat",
+        "infor":"Pastel Pusheen Amigurumi",
+        "price": 25000,
+        "image":"pics/animal8.jpg"  
+    },
+    {
+        "id": 55,
+        "name": "Dragon Chico",
+        "infor":"Amigurumi Crochet Dragon Chico",
+        "price": 25000,
+        "image":"pics/animal9.jpg"  
+    },
+    {
+        "id": 58,
+        "name": "Penguin",
+        "infor":"",
+        "price": 25000,
+        "image":"pics/animal10.jpg"  
+    },
+    {
+        "id": 60,
+        "name": "Rabbit Keychain",
+        "infor": "",
+        "price": 25000,
+        "image": "pics/animal2.jpg"  
+    }
+
+]
+

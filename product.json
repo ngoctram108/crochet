@@ -1,0 +1,425 @@
+[
+    {
+        "id": 1,
+        "name": "Chick Amigurumi",
+        "infor": "Cute wool chicken stew keychain",
+        "price": 45000,
+        "image": "pics/animal1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "A Basket Flowers",
+        "infor": "Mini flower basket made of wool",
+        "price": 50000,
+        "image": "pics/flo1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Chrysanthemum Bag",
+        "infor":"",
+        "price": 90000,
+        "image":"pics/tote9.jpg" 
+    },
+    {
+        "id": 4,
+        "name": "Hairclip",
+        "infor": "",
+        "price": 10000,
+        "image": "pics/ano11.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Sweet Woman Crop Top",
+        "infor": "",
+        "price": 130000,
+        "image": "pics/clo1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Car Pandent",
+        "infor": "",
+        "price": 10000,
+        "image": "pics/key1.jpg"
+    },
+    {
+        "id": 7,
+        "name": "A Basket Flowers",
+        "infor": "",
+        "price": 50000,
+        "image": "pics/flo2.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Headbands",
+        "infor": "",
+        "price": 25000,
+        "image": "pics/ano1.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Christmas Decorate",
+        "infor": "The most adorable crochet Christmas Tree",
+        "price": 18000,
+        "image": "pics/key2.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Boombox Bag",
+        "infor": "For everyone love retro",
+        "price": 20000,
+        "image": "pics/ano2.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Daisy",
+        "infor": "For home decorating",
+        "price": 110000,
+        "image": "pics/flo3.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Mini Cable Bag",
+        "infor": "This mini cable bag free",
+        "price": 60000,
+        "image": "pics/tote2.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Croptop",
+        "infor": "",
+        "price": 50000,
+        "image": "pics/clo2.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Chinchilla Doll",
+        "infor": "",
+        "price": 62000,
+        "image": "pics/animal3.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Key Chain",
+        "infor": "Key Chain Cute Flowe Pearl",
+        "price": 15000,
+        "image": "pics/key3.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Mini Mushroom",
+        "infor": "The adorablecrochet mini mushoom keychain",
+        "price": 25000,
+        "image": "pics/animal4.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Water Bottle",
+        "infor": "Peach crochet water bottle",
+        "price": 30000,
+        "image": "pics/ano3.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Mushroom Key",
+        "infor": "",
+        "price": 18000,
+        "image": "pics/key4.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Shuttlecock Keychain",
+        "infor": "Badminton Amigurumi Tutorial",
+        "price": 20000,
+        "image": "pics/key5.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Bouquet",
+        "infor": "Many types of flowers",
+        "price": 150000,
+        "image": "pics/flo4.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Tulip",
+        "infor": "The crochet tulip is a true work of art",
+        "price": 120000,
+        "image": "pics/flo5.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Hibud",
+        "infor": "From yoyo the ricecorpse",
+        "price": 33000,
+        "image": "pics/ano4.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Handbag",
+        "infor": "Crochet handbag with flowers",
+        "price": 111000,
+        "image": "pics/tote3.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Spring Crochet Vests",
+        "infor": "A vest version of the Preppy Diamond Jumper",
+        "price": 94000,
+        "image": "pics/clo3.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Ice Cream",
+        "infor": "Sweet cone crochet pattern",
+        "price": 20000,
+        "image": "pics/ano5.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Colorful Mini Party Hat",
+        "infor": "Crochet mini party hat of any age",
+        "price": 20000,
+        "image": "pics/ano6.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Heart-Shaped Cushion",
+        "infor": "The heart-shaped cushion is a lovely decor",
+        "price": 35000,
+        "image": "pics/ano7.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Floral Square Shoulder Bag",
+        "infor": "",
+        "price": 54000,
+        "image": "pics/tote4.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Yellow girl",
+        "infor": "",
+        "price": 32000,
+        "image": "pics/ano8.jpg"
+    },
+
+    {
+        "id": 30,
+        "name": "Bread Airpods Case",
+        "infor": "The airpods case is really adorable",
+        "price": 27000,
+        "image": "pics/ano9.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Flower Crop Top",
+        "infor": "",
+        "price": 89000,
+        "image": "pics/clo6.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Flower Tote Bag",
+        "infor": "",
+        "price": 100000,
+        "image": "pics/tote1.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Christmas Tree",
+        "infor": "",
+        "price": 38000,
+        "image": "pics/ano12.jpg"
+    },
+    {
+        "id": 34,
+        "name": "Heart Patchwork Crochet Cardigan",
+        "infor": "",
+        "price": 160000,
+        "image": "pics/clo4.jpg"
+    },
+    {
+        "id": 35,
+        "name": "Strawberry Pouch",
+        "infor": "",
+        "price": 18000,
+        "image": "pics/ano13.jpg"
+    },
+    {
+        "id": 36,
+        "name": "Light sunflower",
+        "infor": "",
+        "price": 80000,
+        "image": "pics/flo6.jpg"
+    },
+    {
+        "id": 37,
+        "name": "Candle Light",
+        "infor": "",
+        "price": 20000,
+        "image": "pics/ano14.jpg"
+    },
+    {
+        "id": 38,
+        "name": "Flower Embroidered Crop Top",
+        "infor": "",
+        "price": 90000,
+        "image": "pics/clo5.jpg"
+    },
+    {
+        "id": 39,
+        "name": "Cake",
+        "infor": "",
+        "price": 22000,
+        "image": "pics/ano15.jpg"
+    },
+    {
+        "id": 40,
+        "name": "Flower",
+        "infor": "For graduation, birthday, anni...",
+        "price": 125000,
+        "image": "pics/flo7.jpg"
+    },
+    {
+        "id": 41,
+        "name": "Crochet Top Blouses",
+        "infor":"",
+        "price": 80000,
+        "image":"pics/clo7.jpg"  
+    },
+    {
+        "id": 42,
+        "name": "Mini Cat",
+        "infor":"Christmas cat",
+        "price": 40000,
+        "image":"pics/animal5.jpg"  
+    },
+    {
+        "id": 43,
+        "name": "Peach Crochet Shoulder Bag",
+        "infor":"",
+        "price": 70000,
+        "image":"pics/tote5.jpg"  
+    },
+    {
+        "id": 44,
+        "name": "Crochet Tulip Top",
+        "infor":"Spring is like painter",
+        "price": 45000,
+        "image":"pics/clo8.jpg"  
+    },
+    {
+        "id": 45,
+        "name": "Strawberry",
+        "infor":"",
+        "price": 50000,
+        "image":"pics/flo8.jpg"  
+    },
+    {
+        "id": 46,
+        "name": "Teddy",
+        "infor":"",
+        "price": 50000,
+        "image":"pics/animal6.jpg"  
+    },
+    {
+        "id": 47,
+        "name": "Rose",
+        "infor":"For gift",
+        "price": 120000,
+        "image":"pics/flo9.jpg"  
+    },
+    {
+        "id": 48,
+        "name": "Trendy Handbag",
+        "infor":"",
+        "price": 30000,
+        "image":"pics/tote6.jpg"  
+    },
+    {
+        "id": 49,
+        "name": "Floral Corset",
+        "infor":"Crochet Corset Cottagecare Top",
+        "price": 55000,
+        "image":"pics/clo9.jpg"  
+    },
+    {
+        "id": 50,
+        "name": "Sheep",
+        "infor":"",
+        "price": 40000,
+        "image":"pics/animal7.jpg"  
+    },
+    {
+        "id": 51,
+        "name": "Mini Bag",
+        "infor":"",
+        "price": 28000,
+        "image":"pics/tote7.jpg"  
+    },
+    {
+        "id": 52,
+        "name": "Cozy crochet",
+        "infor":"Puffy flowers",
+        "price": 90000,
+        "image":"pics/flo10.jpg"  
+    },
+    {
+        "id": 53,
+        "name": "Cat",
+        "infor":"Pastel Pusheen Amigurumi",
+        "price": 25000,
+        "image":"pics/animal8.jpg"  
+    },
+    {
+        "id": 54,
+        "name": "Strawberry Sweater",
+        "infor":"Trend Crochet strawberry cardigan sweater pattern!",
+        "price": 120000,
+        "image":"pics/clo10.jpg"  
+    },
+    {
+        "id": 55,
+        "name": "Dragon Chico",
+        "infor":"Amigurumi Crochet Dragon Chico",
+        "price": 25000,
+        "image":"pics/animal9.jpg"  
+    },
+    {
+        "id": 56,
+        "name": "Daisy Bag",
+        "infor": "",
+        "price": 75000,
+        "image":"pics/tote8.jpg"  
+    },
+    {
+        "id": 57,
+        "name": "Hearth Bag",
+        "infor":"",
+        "price": 65000,
+        "image":"pics/tote10.jpg"  
+    },
+    {
+        "id": 58,
+        "name": "Penguin",
+        "infor":"",
+        "price": 25000,
+        "image":"pics/animal10.jpg"  
+    },
+    {
+        "id": 59,
+        "name": "Blossom Bucket Hat",
+        "infor": "",
+        "price": 35000,
+        "image": "pics/ano10.jpg"
+    },
+    {
+        "id": 60,
+        "name": "Rabbit Keychain",
+        "infor": "",
+        "price": 25000,
+        "image": "pics/animal2.jpg"  
+    }
+
+]
+

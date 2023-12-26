@@ -8,99 +8,100 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/login.css">
-<!--swiper css
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
--->
+    <link rel="stylesheet" href="js/cart.js">
+    <link rel="stylesheet" href="product.json">
+    
 </head>
-<body style="background-color: rgb(245, 201, 208);">
-<header id="fix">
-    <div class="logo">
-        <img src="pics/logo.jpg" id="logo" alt="logo" align="left">
-    </div>
-    
-    <br>
- <div id="dangnhap">
-    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="login">SIGN IN</button>    
-    <button id="login"><a href="register.html">REGISTER</a></button>
-<div id="id01" class="modal">  
-  <form class="modal-content animate" action="/action_page.php" method="post">
-    <div class="imgcontainer">
-        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-        <img src="pics/login.jpg" alt="Avatar" class="avatar">
-      </div>
-
-    <div class="container">
-        <h2>LOGIN FORM</h2>
-      <label for="uname"><b>Username</b></label>
-      <i class='bx bxs-user' ></i>
-      <input type="text" placeholder="Username" required>
-      
-
-      <label for="psw"><b>Password</b></label>
-      <i class='bx bxs-lock-alt'></i>
-      <input type="password" placeholder="Password" required>
+<body style="background-color: rgb(250, 221, 221);">
+    <header id="fix">
+        <div class="logo">
+            <img src="pics/logo.jpg" id="logo" alt="logo" align="left">
+        </div>
         
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-      <br>
-      <button type="submit" class="dn">Login</button>
+        <br>
+     <div id="dangnhap">
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="login">SIGN IN</button>    
+        <button id="login"><a href="register.html">REGISTER</a></button>
+        <div id="id01" class="modal">  
+        <form class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+            <div onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</div>
+            <img src="pics/login.jpg" alt="Avatar" class="avatar">
+          </div>
+    
+        <div class="container">
+        <h2>LOGIN FORM</h2>
+          <label><b>Username</b></label>
+          <i class='bx bxs-user' ></i>
+          <input type="text" placeholder="Username" required>
+          
+    
+          <label><b>Password</b></label>
+          <i class='bx bxs-lock-alt'></i>
+          <input type="password" placeholder="Password" required>
+            
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+          <br>
+          <button type="submit" class="dn">Login</button>
+        </div>
+    
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <div class="psw">Forgot <a href="#">password?</a></div>
+          <div class="psw">Don't have an account?<a href="register.html">Register</a></div>        </div>
+      </form>
+    </div>
     </div>
 
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-      <span class="psw">Don't have an account?<a href="register.html">Register</a></span>
-    </div>
-  </form>
-</div>
-
-<!--   <button id="dangnhap">
-        <a  href="register.html">REGISTER</a>
-    </button>
-    --> 
- </div>
-
-<br>
-<div class="search-box">
-    <div class="input-box">            
-        <input type="search" id="search" placeholder="Tìm kiếm...">
-        <a href="#" class="search-btn">
-            <i class='bx bx-search-alt-2'></i>
-        </a>
-    </div>
-</div>
     <br>
-    <div id="navfix">
-        <ul class="navbar">    
-            <li><a href="index.html"><b>MENU</b></a></li>
-            <li><a href="intro.html"><b>ABOUT</b></a></li>
-            <div class="dropdown">
-                <li><a href="product.html"><b>PRODUCT</b></a></li>
-                <div class="content">
-                    <a href="">Flower</a>
-                    <a href="">Stuffed animal</a>
-                    <a href="">Key chain</a>
-                    <a href="">Clothes</a>
-                    <a href="">Tote</a>
-                    <a href="">...</a>
-                </div>
-            </div>
-           
-            <div class="dropdown">
-                <li><a href="learn.html"><b>LEARN</b></a></li>
-                <div class="content">
-                    <a href="">Basic chart</a>
-                    <a href="">Another chart</a>
-                </div>
-            </div>
-            <li><a href="shop.html"><b>SHOP</b></a></li>
-            <li><a href="contact.html"><b>CONTACT</b></a></li>
-           
-        </ul>
+    <div class="search-box">
+        <div class="input-box">            
+            <input type="search" id="search" placeholder="Tìm kiếm...">
+            <a href="#" class="search-btn">
+                <i class='bx bx-search-alt-2'></i>
+            </a>
+        </div>
+        
+    </div>
+    <div class="iconCart">
+        <img src="pics/icon.png">
+        <div class="totalQuantity">0</div>
     </div>
     
+    <br>    
+
+        <div id="navfix">
+            <ul class="navbar">    
+                <li><a href="index.html"><b>MENU</b></a></li>
+                <li><a href="intro.html"><b>ABOUT</b></a></li>
+                <div class="dropdown">
+                    <li><a href="product.html"><b>PRODUCT</b></a></li>
+                    <div class="content">
+                        <a href="flower.html">Flower</a>
+                        <a href="stuffedanimal.html">Stuffed animal</a>
+                        <a href="keychain.html">Key chain</a>
+                        <a href="clothes.html">Clothes</a>
+                        <a href="tote.html">Tote</a>
+                        <a href="another.html">...</a>
+                    </div>
+                </div>
+               
+                <div class="dropdown">
+                    <li><a href="learn.html"><b>LEARN</b></a></li>
+                    <div class="content">
+                        <a href="">Basic chart</a>
+                        <a href="">Another chart</a>
+                    </div>
+                </div>
+                <li><a href="contact.html"><b>CONTACT</b></a></li>
+               
+            </ul>
+        </div>
+        
 </header>
 
     <img src="pics/slide1.png" alt="gt" class="anhgt1">
@@ -125,9 +126,7 @@
     <table>
         <tr>
             <th class="vid">
-                <video width="400px" height="400px" controls autoplay>
-            <source src="pics/vid.mp4">
-        </video>
+                
     </th>
         <th id="content">
             <h3>WHAT IS CROCHET?</h3>
@@ -145,7 +144,7 @@
 
     <div class="chuoi">
         <h1>SOME PRODUCTS</h1>
-        <div id="slidesp">
+        <div id="slidesp" style="background-color: pink; margin-top: 10px;">
             <div class="mang">
                 <div class="chuoisp1">
                     <a>

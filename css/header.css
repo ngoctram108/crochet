@@ -3,9 +3,37 @@
     position: fixed;
 }*/
 
+/*gio hang*/
+.iconCart img{
+    width: 40px;
+}
+.iconCart{
+    margin-top: -15px;
+    float: left;
+    margin-left: 30px;
+    position:sticky;
+}
+.totalQuantity{
+    /*    position: absolute; */
+        margin-top: -10px;
+        right: 0;
+        font-size: x-large;
+        background-color: #b31010;
+        width: 30px;
+        height: 30px;
+        color: #fff;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        transform: translateX(20px);   
+    }
+
+
 #logo{
-    margin-top: 2px;
-    margin-left: 100px;
+    margin-top: 10px;
+    margin-left: 50px;
     width:90px;
     border-radius: 50%;
     display: block;
@@ -35,7 +63,7 @@ ul.navbar a{
     position: relative;
     color:rgb(0, 0, 0);
     text-decoration: none;
-    padding: 10px 82.9px;
+    padding: 10px 103.8px;
     display:block;
     text-align: justify;
     justify-content: line space-between;
@@ -57,13 +85,13 @@ input[type=text]:focus {
 
 .search-box{
     position:static;
-    margin-top: -30px;
-      float: right;
+    margin-top: -10px;
+      float: left;
       width: 700px;
       background-color: none;
       border: 1px solid rgb(250, 107, 107);
       border-radius: 10px;
-      margin-right:300px;
+      margin-left: 100px;
   }
   .search-box input{
       height: 38px;
@@ -96,6 +124,7 @@ input[type=text]:focus {
     text-decoration: none;
 }
 .dropdown .content{
+    z-index: 2;
     float: right;
     display: none;
     position:absolute;

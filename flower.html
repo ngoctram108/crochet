@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/login.css">
-    <link rel="stylesheet" href="js/login.js">
 
 </head>
 <body style="background-color: rgb(250, 221, 221);">
@@ -23,21 +22,21 @@
      <div id="dangnhap">
         <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="login">SIGN IN</button>    
         <button id="login"><a href="register.html">REGISTER</a></button>
-    <div id="id01" class="modal">  
-      <form class="modal-content animate" action="/action_page.php" method="post">
+        <div id="id01" class="modal">  
+        <form class="modal-content animate" action="/action_page.php" method="post">
         <div class="imgcontainer">
-            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <div onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</div>
             <img src="pics/login.jpg" alt="Avatar" class="avatar">
           </div>
     
         <div class="container">
-            <h2>LOGIN FORM</h2>
-          <label for="uname"><b>Username</b></label>
+        <h2>LOGIN FORM</h2>
+          <label><b>Username</b></label>
           <i class='bx bxs-user' ></i>
           <input type="text" placeholder="Username" required>
           
     
-          <label for="psw"><b>Password</b></label>
+          <label><b>Password</b></label>
           <i class='bx bxs-lock-alt'></i>
           <input type="password" placeholder="Password" required>
             
@@ -50,13 +49,13 @@
     
         <div class="container" style="background-color:#f1f1f1">
           <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-          <span class="psw">Forgot <a href="#">password?</a></span>
-          <span class="psw">Don't have an account?<a href="register.html">Register</a></span>
+          <div class="psw">Forgot <a href="#">password?</a></div>
+          <div class="psw">Don't have an account?<a href="register.html">Register</a></div>        
         </div>
       </form>
     </div>
     </div>
-    
+
     <br>
     <div class="search-box">
         <div class="input-box">            
@@ -65,8 +64,15 @@
                 <i class='bx bx-search-alt-2'></i>
             </a>
         </div>
+        
     </div>
-        <br>
+    <div class="iconCart">
+        <img src="pics/icon.png">
+        <div class="totalQuantity">0</div>
+    </div>
+    
+    <br>    
+
         <div id="navfix">
             <ul class="navbar">    
                 <li><a href="index.html"><b>MENU</b></a></li>
@@ -90,17 +96,18 @@
                         <a href="">Another chart</a>
                     </div>
                 </div>
-                <li><a href="shop.html"><b>SHOP</b></a></li>
-                <li><a href="contact.html"><b>CONTACT</b></a></li> 
+                <li><a href="contact.html"><b>CONTACT</b></a></li>
+               
             </ul>
         </div>
+        
     </header>
 
-<h1>FLOWERS</h1>
+<h1 class="tuade">FLOWER</h1>
 <div class="selectbox">
     <div class="select">
         <div id="select-item">
-            <p>Flowers</p>
+            <p>Flower</p>
             <i class='bx bxs-chevron-down' id="arrow"></i>
         </div>
         <ul id="list" class="hide">
@@ -113,143 +120,51 @@
             <li class="option"><p id="select-text"><a href="another.html">Another</a></p></li>
         </ul>
     </div>
+    
+</div>
+<br>
+
+<div class="chuoi">
+        
+    <div class="allsp">
+        <div class="mang">
+            <img class="image" src="pics/ano1.jpg" alt="">
+            <h2>CoPilot / Black / Automatic</h2>
+            <h4>Chick </h4>
+            <div class="infor"><p>Cute wool chicken stew keychain</p></div>
+            <div class="Price">30<sup>đ</sup></div>
+            <button id="shopping"><i class='bx bx-cart' ></i></button>
+        </div>
+
+    </div>     
 </div>
 
-    <div class="chuoisp">
-        <div id="allsp">
-            <div class="mang">
-                <div class="flower">
-                    <a>
-                        <img class="image" src="pics/flo1.jpg">
-                    </a>
-                </div>
-                <div class="infor">
-                    <h4>A Basket Of Flowers</h4>                        
-                    <p>Mini flower basket made of wool...</p>
-                    <button class="button"><a href="">Detail</a></button>  
-                </div>  
+<div class="cart">
+    <h2>CART</h2>
+    <div class="listCart">
+        <div class="mang">
+            <img src="pics/ano1.jpg">
+            <div class="content">
+                <div class="name">CoPilot / Black / Automatict</div>
+                <div class="price">30<sup>đ</sup></div>
+             </div>
+            <div class="quantity">
+                <button>-</button>
+                <span class="value">3</span>
+                <button>+</button>
             </div>
-
-            <div class="mang">
-                <div class="flower">
-                    <a>
-                        <img class="image" src="pics/flo2.jpg">
-                    </a>
-                </div>
-                <div class="infor">
-                    <h4>A Basket Of Flowers</h4>                        
-                    <p>Mini flower basket made of wool...</p>
-                    <button class="button"><a href="">Detail</a></button>  
-                </div>  
-            </div>
-
-            <div class="mang">
-                <div class="flower">
-                    <a>
-                        <img class="image" src="pics/flo3.jpg">
-                    </a>
-                </div>
-                <div class="infor">
-                    <h4>Daisy</h4>                        
-                    <p>Knitted cute flowers for Home decorate...</p>
-                    <button class="button"><a href="">Detail</a></button>  
-                </div>  
-            </div>
-
-            <div class="mang">
-                <div class="flower">
-                    <a>
-                        <img class="image" src="pics/flo4.jpg">
-                    </a>
-                </div>
-                <div class="infor">
-                    <h4>Bouquet</h4>
-                    <p>Many types of flowers...</p>
-                    <button class="button"><a href="">Detail</a></button>  
-                </div>  
-            </div>
-
-            <div class="mang">
-                <div class="flower">
-                    <a>
-                        <img class="image" src="pics/flo5.jpg">
-                    </a>
-                </div>
-                <div class="infor">
-                    <h4>Tulip</h4>
-                    <p>The crochet tulip is a true work of art...</p>
-                    <button class="button"><a href="">Detail</a></button>  
-                </div>  
-            </div>
-
-            <div class="mang">
-                <div class="flower">
-                    <a>
-                        <img class="image" src="pics/flo6.jpg">
-                    </a>
-                </div>
-                <div class="infor">
-                    <h4>Light sunflower</h4>
-                    <p>...</p>
-                    <button class="button"><a href="">Detail</a></button>  
-                </div>  
-            </div>
-
-            <div class="mang">
-                <div class="flower">
-                    <a>
-                        <img class="image" src="pics/flo7.jpg">
-                    </a>
-                </div>
-                <div class="infor">
-                    <h4>Flower</h4>
-                    <p>For graduation, birthday, anni...</p>
-                    <button class="button"><a href="">Detail</a></button>  
-                </div>  
-            </div>
-
-            <div class="mang">
-                <div class="flower">
-                    <a>
-                        <img class="image" src="pics/flo8.jpg">
-                    </a>
-                </div>
-                <div class="infor">
-                    <h4>Strawberry</h4>
-                    <p>...</p>
-                    <button class="button"><a href="">Detail</a></button>  
-                </div>  
-            </div>
-
-            <div class="mang">
-                <div class="flower">
-                    <a>
-                        <img class="image" src="pics/flo9.jpg">
-                    </a>
-                </div>
-                <div class="infor">
-                    <h4>Rose</h4>
-                    <p>For gift</p>
-                    <button class="button"><a href="">Detail</a></button>  
-                </div>  
-            </div>
-
-            <div class="mang">
-                <div class="flower">
-                    <a>
-                        <img class="image" src="pics/flo10.jpg">
-                    </a>
-                </div>
-                <div class="infor">
-                    <h4>Cozy crochet</h4>
-                    <p>Puffy flowers</p>
-                    <button class="button"><a href="">Detail</a></button>  
-                </div>  
-            </div>
-
-
         </div>
     </div>
+    <div class="buttons">
+        <div class="checkout" id="close">
+            CLOSE
+        </div>
+        <div class="checkout">
+            <a href="checkout.html">CHECKOUT</a>
+        </div>
+    </div>
+</div>
+
 
     <br><hr>
     <footer style="background-color: rgb(124, 116, 124);" align="center">
@@ -258,6 +173,7 @@
         <a href="mailto: truongtram2k4@gmail.com"><i class='bx bxl-gmail'></i>Mail</a>
     </footer>
 
+    <script src="js/all.js"></script>
 <script>
     var selectField = document.getElementById("select-item");
     var selectText = document.getElementById("select-text");
@@ -277,6 +193,12 @@
             arrow.classList.toggle("rotate");
         }
     }
+      fetch('flower.json')
+      .then(response => response.json())
+      .then(data => {
+          products = data;
+          addDataToHTML();
+  })
 </script>
 </body>
 
