@@ -5,7 +5,7 @@
 .chuoisp{
     width: 1200px;
     margin: auto;
-    max-width: 90%;
+    max-width: 100%;
     transition: transfom 1s;
 }
 
