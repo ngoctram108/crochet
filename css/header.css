@@ -42,8 +42,9 @@
     top: 0;
     right: 0;
     left: 0;
+    height: 120px;
     background-color: rgb(248, 197, 206);
-    position:absolute; /*chinh thanh bar*/
+    position:relative; /*chinh thanh bar*/
 }
 h1{
     color: crimson;
@@ -63,7 +64,7 @@ ul.navbar a{
     position: relative;
     color:rgb(0, 0, 0);
     text-decoration: none;
-    padding: 10px 103.8px;
+    padding: 10px 101.75px;
     display:block;
     text-align: justify;
     justify-content: line space-between;
@@ -81,7 +82,6 @@ input[type=text] {
 input[type=text]:focus {
     width: 100%;
 }
-
 
 .search-box{
     position:static;
@@ -128,9 +128,9 @@ input[type=text]:focus {
     float: right;
     display: none;
     position:absolute;
-    margin-top: 1px;  
+    margin-top: 0px;
     background-color: rgba(236, 101, 101, 0.479);
-    min-width: 100px;
+    width: 280px;
     box-shadow: 2px 1px 4px black;
 }
 .dropdown:hover .content{

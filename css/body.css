@@ -1,9 +1,12 @@
+
+
 body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     margin:0px;
+    background-color: #ffe6e6;
 }
 *{
   margin: 0;
@@ -24,13 +27,19 @@ body::-webkit-scrollbar-track{
   background-color: rgb(241, 239, 239);
 }
 
+#vid{
+  float: left;
+}
 th{
   width: 680px;
-  padding: 0px 50px;
+  padding: 0px 10px;
 }
 #khunggt{
   border-collapse: collapse ;
   width: 100%;
+}
+.slide{
+  padding: 0 50px;
 }
 #chuoigt1{
   width: 550px;
@@ -61,24 +70,17 @@ th{
 }
 
 
-#vid{
-  float: left;
-  margin-left: 0;
-}
 #content{
     background-color: rgb(250, 147, 198);
     text-align: center;
-
-    width: 100%;
-    margin: 0 10px 0 500px;
+    width: 800px;
+    margin: 0 50px 0 0px;
     float: right;
     line-height: 30px;
     font-size: 16px;
     margin-right: 20px;
   }
 
-
-/*
   #content .img{
     object-fit: contain;
     position: relative;
@@ -86,7 +88,6 @@ th{
     justify-content: center;
     align-items: center;
 }
-*/
 .image{
   width:200px;
   height:200px;
