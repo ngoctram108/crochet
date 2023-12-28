@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/jpg" href="pics/favicon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CROCHET</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="js/cart.js">
+
+    
+</head>
+
+<body>
+    <header id="fix">
+        <div class="logo">
+            <img src="pics/logo.jpg" id="logo" alt="logo" align="left">
+        </div>
+        
+        <br>
+     <div id="dangnhap">
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="login">SIGN IN</button>    
+        <button id="login"><a href="register.html">REGISTER</a></button>
+        <div id="id01" class="modal">  
+        <form class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+            <div onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</div>
+            <img src="pics/login.jpg" alt="Avatar" class="avatar">
+          </div>
+    
+        <div class="container">
+        <h2>LOGIN FORM</h2>
+          <label><b>Username</b></label>
+          <i class='bx bxs-user' ></i>
+          <input type="text" placeholder="Username" required>
+          
+    
+          <label><b>Password</b></label>
+          <i class='bx bxs-lock-alt'></i>
+          <input type="password" placeholder="Password" required>
+            
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+          <br>
+          <button type="submit" class="dn">Login</button>
+        </div>
+    
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <div class="psw">Forgot <a href="#">password?</a></div>
+          <div class="psw">Don't have an account?<a href="register.html">Register</a></div>        </div>
+      </form>
+    </div>
+    </div>
+
+    <br>
+    <div class="search-box">
+        <div class="input-box">            
+            <input type="search" id="search" placeholder="Search...">
+            <a href="#" class="search-btn">
+                <i class='bx bx-search-alt-2'></i>
+            </a>
+        </div>
+        
+    </div>
+    <div class="iconCart">
+        <img src="pics/icon.png">
+        <div class="totalQuantity">0</div>
+    </div>
+    
+    <br>    
+
+        <div id="navfix">
+            <ul class="navbar">    
+                <li><a href="index.html"><b>MENU</b></a></li>
+                <li><a href="index.html"><b>ABOUT</b></a></li>
+                <div class="dropdown">
+                    <li><a href="product.html"><b>PRODUCT</b></a></li>
+                    <div class="content">
+                        <a href="flower.html">Flower</a>
+                        <a href="stuffedanimal.html">Stuffed animal</a>
+                        <a href="keychain.html">Key chain</a>
+                        <a href="clothes.html">Clothes</a>
+                        <a href="tote.html">Tote</a>
+                        <a href="another.html">...</a>
+                    </div>
+                </div>
+                <li><a href="learn.html" style="border-style:dashed; border-width: 0.8px; border-color: rgb(161, 32, 32);"><b style="font-style:inherit;">LEARN</b></a></li> 
+                <li><a href="checkout.html"><b>CHECK OUT</b></a></li>
+               
+            </ul>
+        </div>
+        
+    </header>
+
+
+<br>
+
+
+
+<div class="cart">
+    <h2>CART</h2>
+    <div class="listCart">
+        <div class="mang">
+            <img src="pics/animal1.jpg">
+            <div class="content">
+                <div class="name">CoPilot / Black / Automatict</div>
+                <div class="price">30<sup>đ</sup></div>
+             </div>
+            <div class="quantity">
+                <button>-</button>
+                <span class="value">3</span>
+                <button>+</button>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <div class="checkout" id="close">
+            CLOSE
+        </div>
+        <div class="checkout">
+            <a href="checkout.html">CHECKOUT</a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .chuoisp{
+        padding: 30px;
+    }
+    .infor a{
+        font-size: 20px;
+        padding-top: 0;
+    }
+    .infor p{
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    #allsp{
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        gap: 40px;
+    }
+    .mang{
+        width: 320px;
+        height: 330px;
+        box-shadow: 2px 3px 10px rgb(241, 85, 85);
+    }
+    .mang img{
+        width: 320px;
+    }
+    .stars{
+        padding-top: 0px;
+        color: orange;
+        float: right;
+    }
+</style>
+<h2 style="text-align: center; color: red; font-style:oblique;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Here are some videos for you</h2>
+<div class="chuoisp">
+    <div id="allsp">
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid4.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/-k-s1-l56LM?si=Iwm6a5U3hlGkYGmB" target="_blank">Basic Chart</a></h2>  
+                <p>Learn about the 5 most commonly used stitches in crochet</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                    <i class='bx bx-star'></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid1.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/vE793um_dJ8?si=nXpCu2ytcgRRp2Ij" target="_blank">Crochet Heart ♡ How to crochet a heart</a></h2>
+                <p>Crochet for absolute beginner | Easy crochet tiny heart</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid2.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/MveBTssXBag?si=56imSBQFR9w2LmDt" target="_blank">Crochet lily of the valley ♡ Headphone accessory</a></h2>
+                <p>Crochet for beginner | EASY & QUICK</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid3.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/HtDJLbf_3_0?si=Enx7-jSQ9-HQHQ9o" target="_blank">Easy crochet ghost ♡ Halloween crochet for beginner tutorial</a></h2>
+                <p>Crochet keychain & headband</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid5.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/6jn8Cl6lXpg?si=nk6TpPWPoauXUeGn" target="_blank">Crochet Octopus Keychain</a>🐙</h2>
+                <p>Easy Amigurumi</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid6.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/UvXtGx96_CY?si=v3-kaplNU3dRq-9D" target="_blank">Crochet Sakura Flower</a>🌸</h2>
+                <p>Cherry Blossom Tutorial</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid7.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/FqktC-qKnDk?si=D9XSu4ksF00k6hx1" target="_blank">How To Crochet Bunny</a>🐰</h2>
+                <p>Rabbit Amigurumi</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid8.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/banJHXmwWMY?si=nVu32E101E86qGSA" target="_blank">Crochet Christmas Tree</a>🌲🎄🌲</h2>
+                <p>Crochet Christmas Ornaments</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid9.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/F1YJ5HxwPCk?si=40lS65wqa3kdaJd-" target="_blank">Crochet Duck Flower</a>🐤</h2>
+                <p></p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid10.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2>🐱<a href="https://youtu.be/g8nEDUPhyOQ?si=329It8cbqp-6Cqru" target="_blank">Crochet Pouch Tutorial</a></h2>
+                <p>How to Crochet a drawstring pouch</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid11.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/jCKcW-T4dvk?si=NphciM1Do1hZ_vbm" target="_blank">Crochet Pig With A Knife</a>🐷🔪</h2>
+                <p>Pig Amigurumi Tutorial </p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid12.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/io8bX77SKGI?si=7WMWDCev7KAZO3pf" target="_blank">How to Crochet Rose Bouquet</a>✿</h2>
+                <p>Crochet Flower Bouquet Tutorial</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid13.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/Y4GNCPae61E?si=GGbP8o3af2S0EiYh" target="_blank">Crochet moon & star ♡ Headphone accessory</a></h2>
+                <p>Bookmark | bag charm |absolute beginner crochet tutorial</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid14.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/_apb3s0vjK4?si=d3fEj3lwBBHAxmgz" target="_blank">Crochet a Mini Flower Basket</a></h2>
+                <p></p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid15.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/MQ6PFiltMPw?si=o_HKHcu0nZyPjt0S" target="_blank">How to crochet the cutest ruched popcorn bag (any size!)</a></h2>
+                <p>Beginner-friendly tutorial</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid16.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/VABxM4de3KU?si=yhhC2xcckEKWm7qu" target="_blank">Easy way to turn heart granny squares into a cute bag</a>💌☁️</h2>
+                <p>Crochet tutorial</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid17.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/atNjKb-DWtw?si=sdvyAnT9VMGi22LB" target="_blank">How to crochet a cute bunny</a></h2>
+                <p>Beginner-friendly tutorial with row counter app (no magic ring!)</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mang">
+            <div class="chart">
+                <a>
+                    <img src="pics/vid18.jpg">
+                </a>
+            </div>
+            <div class="infor">
+                <h2><a href="https://youtu.be/XmjOlbM6EBA?si=5iQia8D5EdQKptYp" target="_blank">Crochet sunflower mini</a></h2>
+                <p></p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+    <br><hr>
+    <footer style="background-color: rgb(124, 116, 124);" align="center">
+        <a href="#" style="text-decoration: none; color: black;">Contact: 0901234567</a><br>
+        by: NgocTram<br>
+        Address: Ho Chi Minh City<br>
+        &copy; Copyright reserved<br>
+        <a href="mailto: truongtram2k4@gmail.com"><i class='bx bxl-gmail'></i>Mail</a>
+    </footer>
+
+    <script src="js/all.js"></script>
+
+</body>
+
+</html>

@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="js/cart.js">
     <link rel="stylesheet" href="product.json">
     
+    
 </head>
-<body style="background-color: rgb(250, 221, 221);">
+<body>
     <header id="fix">
         <div class="logo">
             <img src="pics/logo.jpg" id="logo" alt="logo" align="left">
@@ -52,7 +53,8 @@
         <div class="container" style="background-color:#f1f1f1">
           <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
           <div class="psw">Forgot <a href="#">password?</a></div>
-          <div class="psw">Don't have an account?<a href="register.html">Register</a></div>        </div>
+          <div class="psw">Don't have an account?<a href="register.html">Register</a></div>        
+        </div>
       </form>
     </div>
     </div>
@@ -60,7 +62,7 @@
     <br>
     <div class="search-box">
         <div class="input-box">            
-            <input type="search" id="search" placeholder="Tìm kiếm...">
+            <input type="search" id="search" placeholder="Search...">
             <a href="#" class="search-btn">
                 <i class='bx bx-search-alt-2'></i>
             </a>
@@ -76,8 +78,8 @@
 
         <div id="navfix">
             <ul class="navbar">    
-                <li><a href="index.html"><b>MENU</b></a></li>
-                <li><a href="intro.html"><b>ABOUT</b></a></li>
+                <li><a href="index.html"style="border-style:dashed; border-width: 0.8px; border-color: rgb(161, 32, 32);"><b style="font-style:inherit;">MENU</b></a></li>
+                <li><a href="#gthieu"><b>ABOUT</b></a></li>
                 <div class="dropdown">
                     <li><a href="product.html"><b>PRODUCT</b></a></li>
                     <div class="content">
@@ -89,15 +91,8 @@
                         <a href="another.html">...</a>
                     </div>
                 </div>
-               
-                <div class="dropdown">
-                    <li><a href="learn.html"><b>LEARN</b></a></li>
-                    <div class="content">
-                        <a href="">Basic chart</a>
-                        <a href="">Another chart</a>
-                    </div>
-                </div>
-                <li><a href="contact.html"><b>CONTACT</b></a></li>
+                <li><a href="learn.html"><b>LEARN</b></a></li>
+                <li><a href="checkout.html"><b>CHECK OUT</b></a></li>
                
             </ul>
         </div>
@@ -105,18 +100,19 @@
 </header>
 
     <img src="pics/slide1.png" alt="gt" class="anhgt1">
-
+<div id="gthieu">
     <table class="khunggt">
         <tr>
-        <th class="slide"><div id="chuoigt1">
+        <th class="slide">
+            <div id="chuoigt1">
             <div class="share">
                 <h2><a href="learn.html">Share for free</a></h2>
                 <p>Share useful knitting knowledge and interesting crochet tips</p>
             </div>
         </div></th>
-        <th><div id="chuoigt2">
+        <th class="slide"><div id="chuoigt2">
             <div class="buy">
-                <h2><a href="">Shopping</a></h2>
+                <h2><a href="product.html">Shopping</a></h2>
                 <p>All kinds of cheap and quality knitting accessories, reputable handmade gifts</p>
             </div>
         </div></th>
@@ -126,23 +122,24 @@
     <table>
         <tr>
             <th class="vid">
-                
+                <img src="pics/gt.jpg" width="400px">
     </th>
-        <th id="content">
+        <th id="content"><br>
             <h3>WHAT IS CROCHET?</h3>
             <p>Crochet is a type of needlecraft in which you use a hook to create fabric from loops of yarn. Crochet can be used to make everything from blankets and scarves to hats and sweaters. If you’re looking for a fun, creative way to spend your free time, crochet may be the perfect activity for you!</p>
-            <hr width="30%" color="pink">
+            <br><hr color="pink">
             <br>
             <h3>CROCHET HANDMADE</h3>
             <p>
-                This is a website specializing in sharing easy-to-understand handmade instructions, especially wool and yarn handmade.
-                At the same time, this is a place that provides reputable, quality, good-priced woolen yarn, crocheted accessories and handmade gifts to meet everyone's needs.
-            </p>
+                Crochet is a fun, relaxing hobby that anyone can do! In this step-by-step guide, we will discuss how to crochet. We’ll cover everything you need to know to get started – from the basics of how to hold your hook, to the six most common crochet stitches. We’ll even talk about the best yarn to use and where you can find beginner crochet patterns for free.
+            </p><br>
         </th>
         </tr>
     </table>
+</div>
 
     <div class="chuoi">
+        <hr width="50%" style="margin: 0 auto;">
         <h1>SOME PRODUCTS</h1>
         <div id="slidesp" style="background-color: pink; margin-top: 10px;">
             <div class="mang">
@@ -153,8 +150,8 @@
                 </div>
                 <div class="infor">
                     <h4>Chick Amigurumi</h4>                        
-                    <p>Cute wool chicken stew keychain...</p>
-                    <button class="button"><a href="">Detail</a></button>  
+                    <p>Cute wool chicken stew keychain</p>
+                    <button class="button"><a href="product.html">Buy</a></button>  
                 </div>  
             </div>
     
@@ -167,7 +164,7 @@
                 <div class="infor">
                     <h4>A Basket Of Flowers</h4>                        
                     <p>Mini flower basket made of wool...</p>
-                    <button class="button"><a href="">Detail</a></button>  
+                    <button class="button"><a href="product.html">Buy</a></button>  
                 </div>  
             </div>
     
@@ -179,8 +176,8 @@
                 </div>
                 <div class="infor">
                     <h4>Rabit Keychain</h4>                        
-                    <p>fdhgfythhgbdhfuehufjhueufffffffsd...</p>
-                    <button class="button"><a href="">Detail</a></button>  
+                    <p>...</p>
+                    <button class="button"><a href="product.html">Buy</a></button>  
                 </div>  
             </div>
     
@@ -192,8 +189,8 @@
                 </div>
                 <div class="infor">
                     <h4>Flower Tote Bag</h4>                        
-                    <p>fdhgfythhgbdhfuehufjhueufffffffsd...</p>
-                    <button class="button"><a href="">Detail</a></button>  
+                    <p>...</p>
+                    <button class="button"><a href="product.html">Buy</a></button>  
                 </div>  
             </div>
     
@@ -205,8 +202,8 @@
                 </div>
                 <div class="infor">
                     <h4>Sweet Woman Crop Top</h4>                        
-                    <p>fdhgfythhgbdhfuehufjhueufffffffsd...</p>
-                    <button class="button"><a href="">Detail</a></button>  
+                    <p>...</p>
+                    <button class="button"><a href="product.html">Buy</a></button>  
                 </div>  
             </div>
     
@@ -218,8 +215,8 @@
                 </div>
                 <div class="infor">
                     <h4>Car Pandent</h4>                        
-                    <p>fdhgfythhgbdhfuehufjhueufffffffsd...</p>
-                    <button class="button"><a href="">Detail</a></button>  
+                    <p>...</p>
+                    <button class="button"><a href="product.html">Buy</a></button>  
                 </div>  
             </div>
     
@@ -232,7 +229,7 @@
                 <div class="infor">
                     <h4>A Basket Of Flowers</h4>                        
                     <p>Mini flower basket made of wool...</p>
-                    <button class="button"><a href="">Detail</a></button>  
+                    <button class="button"><a href="product.html">Buy</a></button>  
                 </div>  
             </div>
     
@@ -244,8 +241,8 @@
                 </div>
                 <div class="infor">
                     <h4>Headbands</h4>                        
-                    <p>fdhgfythhgbdhfuehufjhueufffffffsd...</p>
-                    <button class="button"><a href="">Detail</a></button>  
+                    <p>...</p>
+                    <button class="button"><a href="product.html">Buy</a></button>  
                 </div>  
             </div>
     
@@ -258,7 +255,7 @@
                 <div class="infor">
                     <h4>Christmas Decorate</h4>                        
                     <p>The most adorable crochet Christmas Tree...</p>
-                    <button class="button"><a href="">Detail</a></button>  
+                    <button class="button"><a href="product.html">Buy</a></button>  
                 </div>  
             </div>
     
@@ -271,7 +268,7 @@
                 <div class="infor">
                     <h4>Boombox Bag</h4>                        
                     <p>If you love retro like we do,...</p>
-                    <button class="button"><a href="">Detail</a></button>  
+                    <button class="button"><a href="product.html">Buy</a></button>  
                 </div>  
             </div>
 
@@ -284,20 +281,20 @@
                 <div class="infor">
                     <h4>Tulip</h4>                        
                     <p>...</p>
-                    <button class="button"><a href="">Detail</a></button>  
+                    <button class="button"><a href="product.html">Buy</a></button>  
                 </div>  
             </div>
     
             <div class="mang">
                 <div class="chuoisp1">
                     <a>
-                        <img class="image" src="pics/tote4.jpg">
+                        <img class="image" src="pics/tote5.jpg">
                     </a>
                 </div>
                 <div class="infor">
-                    <h4>Floral Square Shoulder Bag</h4>                        
+                    <h4>Peach Crochet Shoulder Bag</h4>                        
                     <p>This mini cable bag free...</p>
-                    <button class="button"><a href="">Detail</a></button>  
+                    <button class="button"><a href="product.html">Buy</a></button>  
                 </div>  
             </div>
     
@@ -310,7 +307,7 @@
                 <div class="infor">
                     <h4>Chinchilla Doll</h4>
                     <p>...</p>
-                    <button class="button"><a href="">Detail</a></button>  
+                    <button class="button"><a href="product.html">Buy</a></button>  
                 </div>  
             </div>
 
@@ -325,8 +322,10 @@
     <br>
     <hr>
     <footer style="background-color: rgb(124, 116, 124);" align="center">
+        <a href="#" style="text-decoration: none; color: black;">Contact: 0901234567</a><br>
         by: NgocTram<br>
-        &copy; copyright reserved<br>
+        Address: Ho Chi Minh City<br>
+        &copy; Copyright reserved<br>
         <a href="mailto: truongtram2k4@gmail.com"><i class='bx bxl-gmail'></i>Mail</a>
     </footer>
 
