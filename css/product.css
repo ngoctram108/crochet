@@ -3,7 +3,7 @@
 }
 
 .chuoisp{
-    width: 1200px;
+    width: 100%;
     margin: auto;
     max-width: 100%;
     transition: transfom 1s;
@@ -37,6 +37,7 @@
     
 }
 #list{
+    
     z-index: 2;
     background-color: pink;
     width: 300px;
@@ -113,7 +114,6 @@
     opacity: 1;
     transform: translateX(-50%) translateY(0);
 }
-
 
 
 .cart{
