@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     <link rel="stylesheet" href="css/product.css">
-    <link rel="stylesheet" href="css/login.css">
-   
+    <link rel="stylesheet" href="css/login.css">   
     
 </head>
 
@@ -74,26 +73,24 @@
     
     <br>    
 
-        <div id="navfix">
-            <ul class="navbar">    
-                <li><a href="index.html"><b>MENU</b></a></li>
-                <li><a href="index.html"><b>ABOUT</b></a></li>
-                <div class="dropdown">
-                    <li><a href="product.html"><b>PRODUCT</b></a></li>
-                    <div class="content">
-                        <a href="flower.html">Flower</a>
-                        <a href="stuffedanimal.html">Stuffed animal</a>
-                        <a href="keychain.html">Key chain</a>
-                        <a href="clothes.html">Clothes</a>
-                        <a href="tote.html">Tote</a>
-                        <a href="another.html">...</a>
-                    </div>
-                </div>
-                <li><a href="learn.html" style="border-style:dashed; border-width: 1px; border-color: rgb(168, 65, 65);"><b>LEARN</b></a></li> 
-                <li><a href="checkout.html"><b>CHECK OUT</b></a></li>
-               
-            </ul>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html"><b>MENU</b></a>
+        <a href="#gthieu"><b>ABOUT</b></a>
+        <div class="dropdown">
+            <a href="product.html"><b>PRODUCT</b></a>
+            <div class="content-drop">
+                <a href="flower.html">Flower</a>
+                <a href="stuffedanimal.html">Stuffed animal</a>
+                <a href="keychain.html">Key chain</a>
+                <a href="clothes.html">Clothes</a>
+                <a href="tote.html">Tote</a>
+                <a href="another.html">...</a>
+            </div>
         </div>
+        <a href="learn.html"  id="active" style="color: #f1f1f1;" class="dropbtn"><b>LEARN</b></a>
+        <a href="checkout.html"><b>CHECK OUT</b></a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
         
     </header>
 
@@ -130,8 +127,9 @@
 
 <style>
     .chuoisp{
-        padding: 30px;
+        padding-top: 30px;
     }
+    
     .infor a{
         font-size: 20px;
         padding-top: 0;
@@ -141,6 +139,7 @@
         padding-top: 5px;
     }
     #allsp{
+        padding-left: 50px;
         display: grid;
         grid-template-columns: repeat(3, 400px);
         gap: 40px;

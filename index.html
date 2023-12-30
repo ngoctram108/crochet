@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="js/cart.js">
     <link rel="stylesheet" href="product.json">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
     
 </head>
 <body>
@@ -70,6 +70,7 @@
         </div>
         
     </div>
+    
     <div class="iconCart">
         <img src="pics/icon.png">
         <div class="totalQuantity">0</div>
@@ -77,26 +78,26 @@
     
     <br>    
 
-        <div id="navfix">
-            <ul class="navbar">    
-                <li><a href="index.html"style="border-style:dashed; border-width: 0.8px; border-color: rgb(161, 32, 32);"><b style="font-style:inherit;">MENU</b></a></li>
-                <li><a href="#gthieu"><b>ABOUT</b></a></li>
-                <div class="dropdown">
-                    <li><a href="product.html"><b>PRODUCT</b></a></li>
-                    <div class="content">
-                        <a href="flower.html">Flower</a>
-                        <a href="stuffedanimal.html">Stuffed animal</a>
-                        <a href="keychain.html">Key chain</a>
-                        <a href="clothes.html">Clothes</a>
-                        <a href="tote.html">Tote</a>
-                        <a href="another.html">...</a>
-                    </div>
-                </div>
-                <li><a href="learn.html"><b>LEARN</b></a></li>
-                <li><a href="checkout.html"><b>CHECK OUT</b></a></li>
-               
-            </ul>
+        <!--topnav-navfix-->
+<div class="topnav" id="myTopnav">
+    <a href="index.html" id="active" style="color: #f1f1f1;"><b>MENU</b></a>
+    <a href="#gthieu"><b>ABOUT</b></a>
+    <div class="dropdown">
+        <a href="product.html" class="dropbtn"><b>PRODUCT</b></a>
+        <div class="content-drop">
+            <a href="flower.html">Flower</a>
+            <a href="stuffedanimal.html">Stuffed animal</a>
+            <a href="keychain.html">Key chain</a>
+            <a href="clothes.html">Clothes</a>
+            <a href="tote.html">Tote</a>
+            <a href="another.html">...</a>
         </div>
+    </div>
+    <a href="learn.html"><b>LEARN</b></a>
+    <a href="checkout.html"><b>CHECK OUT</b></a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
 
         <div class="cart">
             <h2>CART</h2>
@@ -164,6 +165,7 @@
         </tr>
     </table>
 </div>
+
 
     <div class="chuoi">
         <hr width="50%" style="margin: 0 auto;">
@@ -358,4 +360,6 @@
 
 </body>
 <script src="js/all.js"></script>
+
+
 </html>
