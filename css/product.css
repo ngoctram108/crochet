@@ -71,21 +71,19 @@
 .allsp{
     padding: 10px 10px 10px 30px;
     display:grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 18%);
     flex-wrap: wrap;
     background-color: pink;
     gap: 20px;
 }
 .allsp h2{
-    
     font-size: 21px;
 }
 .allsp .infor{
     font-size: 15px;
 }
 .allsp img{
-    width: 200px;
-    height: 200px;
+    width: 100%;
 }
 .allsp .mang{
     /*box-shadow: 1px 1px 4px rgb(231, 79, 79);*/

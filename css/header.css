@@ -1,3 +1,4 @@
+
 @media only screen and (max-width: 600px) {
       /* CSS code for smaller screens */
       .container {
@@ -140,7 +141,7 @@
 #logo{
     margin-top: 10px;
     margin-left: 50px;
-    width:90px;
+    width:7%;
     border-radius: 50%;
     display: block;
 }
@@ -251,7 +252,7 @@ input[type=text]:focus {
     position:static;
     margin-top: -10px;
       float: left;
-      width: 700px;
+      width: 50%;
       background-color: none;
       border: 2px solid rgb(250, 107, 107);
       border-radius: 5px;
