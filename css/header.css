@@ -15,7 +15,6 @@
     overflow: hidden;
     background-color: rgb(250, 90, 116);
 /*chinh sua*/
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
