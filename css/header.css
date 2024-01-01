@@ -26,7 +26,7 @@
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 99.8px;
+    padding: 14px 7.35%;
     text-decoration: none;
     font-size: 17px;
   }
@@ -40,17 +40,16 @@
   }
   
   .dropdown {
-    float: left;
-    overflow: hidden;
-    
-  }
+    text-decoration: none;
+    display: block;
+}
   
   .content-drop {
-    margin-top: 48px;
+    margin: 48px 37.8%;
     display: none;
     position: absolute;
-    background-color: pink;
-    min-width: 250px;
+    background-color: #ffe6e6;
+    min-width: 280px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -61,7 +60,6 @@
     text-align: center;
     text-decoration: none;
     display: block;
-    text-align: left;
   }
   
   .topnav a:hover, .dropdown:hover .dropbtn {
@@ -150,7 +148,7 @@
     right: 0;
     left: 0;
     height: 120px;
-    background-color: rgb(248, 197, 206);
+    background-color: rgb(248, 203, 211);
     position:relative; /*chinh thanh bar*/
     
 }
@@ -167,76 +165,6 @@ input[type=text]:focus {
     width: 100%;
 }
 
-/*
-#timkiem{
-    margin: 0 10px 0 150px;
-}
-
-.search-box {
-    
-    position: relative;
-    height: 50px;
-    max-width: 900px;
-    width: 80%;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  }
-  .search-box i, .search-box .button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  .search-box i {
-    left: 20px;
-    font-size: 30px;
-    color: #707070;
-  }
-  .search-box input {
-    height: 100%;
-    width: 100%;
-    outline: none;
-    font-size: 18px;
-    font-weight: 400;
-    border: none;
-    padding: 0 155px 0 65px;
-    background-color: transparent;
-  }
-  .search-box .button {
-    right: 20px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
-    border: none;
-    padding: 12px 30px;
-    border-radius: 6px;
-    background-color: #4070f4;
-    cursor: pointer;
-  }
-  .search-box .button:active {
-    transform: translateY(-50%) scale(0.98);
-  }
-  
-  /* Responsive 
-  @media screen and (max-width: 500px) {
-    .search-box {
-      height: 66px;
-      margin: 0 8px;
-    }
-    .search-box i {
-      left: 12px;
-      font-size: 25px;
-    }
-    .search-box input {
-      padding: 0 112px 0 50px;
-    }
-    .search-box .button {
-      right: 12px;
-      font-size: 14px;
-      padding: 8px 18px;
-    }
-  }
-  */
 
 @media only screen and (min-width : 150px) and (max-width : 780px)
 {
