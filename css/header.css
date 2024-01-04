@@ -11,7 +11,7 @@
 }    
 .topnav {
     z-index: 2;
-    margin-top: 39px;
+    margin-top: 45px;
     overflow: hidden;
     background-color: rgb(250, 90, 116);
 /*chinh sua*/
@@ -173,7 +173,6 @@ input[type=text]:focus {
 		width: 95%;
 		margin: 0 auto;
 	}
-
 }
 .search-box{
     position:static;
