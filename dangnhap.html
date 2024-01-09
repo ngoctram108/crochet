@@ -12,26 +12,27 @@
 
 <div class="form" style="max-width: 600px; margin: 0 auto; box-sizing: 1px; box-shadow: 2px 3px 4px black; border-radius: 1%;">
 
-    <a href="index.html" style="font-size: 20px;"><i class='bx bx-home'>Home</i></a>
-    <h3 class="text-center text-uppercase" style="padding: 50px; color: Red; font-size: 40px;"><b>SIGN IN</b></h3>
+    <a href="index.html" style="font-size: 20px; margin: 20px 50px;"><i class='bx bx-home'>Home</i></a>
+    <h3 class="text-center text-uppercase" style="padding: 50px 50px 0 50px; color: Red; font-size: 35px;"><b>MESSAGE FORM</b></h3>
+    <a style="padding: 0 30px;">(If you have any questions, you can write here! I'll response your message.)</a>
     <form action="" method="post" id="submit_form">
         <div class="msg"></div>
         <div class="form-group">
-            <label for="">Username</label><i class='bx bxs-user' ></i>
-            <input type="text" name="fullname" class="form-control"/>
+            <label for="">Email</label><i class='bx bxs-user' ></i>
+            <input type="email" name="fullname" class="form-control"/>
             <span class="required"></span>
         </div>
 
         <div class="form-group">
-            <label for="">Password</label><i class='bx bxs-lock-alt'></i>
-            <input type="password" name="password" class="form-control"/>
+            <label for="">Message</label><i class='bx bxs-lock-alt'></i>
+            <input type="text" name="password" class="form-control" style="height: 100px; padding: 10px;"/>
             <span class="required"></span>
         </div> <br>
         <label style="padding: 0px 70px;">
             <input type="checkbox" checked="checked" name="remember"> Remember me
         </label>
 <br>
-        <button type="submit" class="btn btn-primary" style="text-align: center; width: 100%; padding: 10px 50px;">LOGIN</button>
+        <button type="submit" class="btn btn-primary" style="text-align: center; width: 100%; padding: 10px 50px;">SEND</button>
     </form>
 </div>
 <style>
@@ -94,8 +95,8 @@
         if (Object.keys(errores).length==0){
             //khong co loi gi
             let data = {
-                'entry.1788197004': fullName,
-                'entry.1271960673': password
+                'entry.2111396689': fullName,
+                'entry.1444528337': password
             }
             
             let queryString = new URLSearchParams(data);
@@ -104,11 +105,11 @@
             msg0j.innerHTML = '';
 
             let xhr = new XMLHttpRequest();
-            xhr.open("POST", 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSd8gdl8nVnJ4Bn3IKfhKAMHakNvyDwYByCHRw-JgusYW40Oyw/formResponse', true);
+            xhr.open("POST", 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSd41jSnKws0EXj-lXPPJfrOwHgwB1oCXwuoqmNBwdzwLluNmw/formResponse', true);
 
             xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
-            msg0j.innerHTML = '<div class="alert alert-success text-center">Login successfully!</div>';
+            msg0j.innerHTML = '<div class="alert alert-success text-center">Sent successfully!</div>';
 
             //Reset field sau khi gui xong
             fullName0j.value = '';
