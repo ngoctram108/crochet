@@ -248,7 +248,7 @@
     padding: 40px;
     color: #fff;
 }
-.checkoutLayout .right .form{
+.checkoutLayout .right .form-{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -282,7 +282,8 @@
     font-weight: bold;
     font-size: x-large;
 }
-.buttonCheckout{
+
+#buttonCheckout{
     width: 100%;
     height: 40px;
     border: none;
